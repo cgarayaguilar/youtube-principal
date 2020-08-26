@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina principal | Youtube</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
     <link
@@ -15,10 +15,114 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container active">
-      <header class="header"></header>
-      <nav class="lateral-menu"></nav>
-      <main class="main"></main>
+    <div class="container active" id="container">
+      <header class="header">
+        <div class="container-logo">
+          <button class="button-menu" id="button-menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="#" class="logo"
+            ><i class="fab fa-youtube"></i><span>Cesar Garay</span></a
+          >
+        </div>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar" />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="buttons-header">
+          <button><i class="fas fa-upload"></i></button>
+          <button><i class="fas fa-th"></i></button>
+          <button><i class="fas fa-bell"></i></button>
+          <a href="#" class="avatar" />
+        </div>
+      </header>
+
+      <nav class="lateral-menu">
+        <a href="#" class="active"
+          ><i class="fas fa-home"></i> Página Principal</a
+        >
+        <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+        <a href="#"><i class="fas fa-star"></i> Suscripciones</a>
+
+        <hr />
+
+        <a href="#"><i class="fas fa-folder"></i> HTML y CSS</a>
+        <a href="#"><i class="fas fa-folder"></i> Responsive Design</a>
+        <a href="#"><i class="fas fa-folder"></i> Bootstrap</a>
+
+        <hr />
+
+        <a href="#"><i class="fas fa-folder"></i> Javascript</a>
+        <a href="#"><i class="fas fa-folder"></i> React</a>
+        <a href="#"><i class="fas fa-folder"></i> PHP y MYSQL</a>
+      </nav>
+      <main class="main">
+        <h3 class="title">Videos recomendados</h3>
+        <div class="grid-videos">
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt="image"
+          /></a>
+        </div>
+      </main>
     </div>
 
     <script src="/main.js"></script>
